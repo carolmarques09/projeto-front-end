@@ -1,3 +1,5 @@
+// Código feito por Carolina Marques Magalhães Véras
+
 function validarProduto(produto) {
     const nomeRegex = /^[a-zA-Z\s]{3,}$/;
     if (!nomeRegex.test(produto.nome)) {
